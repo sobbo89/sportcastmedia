@@ -24,6 +24,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         source: '*'
-        target: /var/www/dev.sportcastmedia.se/public_html
+        target: /var/www/sportcastmedia.se/public_html
         rm: true
         overwrite: true
