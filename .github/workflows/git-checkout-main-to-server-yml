@@ -4,9 +4,9 @@ name: Git-checkouter
 # in which branch(es) should start the jobs...
 on:
   push:
-    branches: [dev]
+    branches: [main]
   pull_request:
-    branches: [dev]
+    branches: [main]
 
 # jobs to run
 jobs:
